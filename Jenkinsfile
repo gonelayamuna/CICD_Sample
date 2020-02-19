@@ -4,6 +4,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo "This is testing pipeline"
+                echo "Testing poll SCM"
             }
         }
     }
